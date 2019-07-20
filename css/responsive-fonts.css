@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container-fluid, .container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    font-size: 8px;
+}
+
+.row {
+    margin: 0;
+}
+    
+@media only screen and (max-width : 1024px) {
+    :root {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width : 724px) {
+    :root {
+        font-size: 6px;
+    }
+}
+
+/* @media only screen and (max-width : 724px) {
+    :root {
+        font-size: 6px;
+    }
+} */
